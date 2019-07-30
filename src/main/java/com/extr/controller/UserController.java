@@ -67,7 +67,7 @@ public class UserController {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			message.setResult("error");
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return message;
 	}
